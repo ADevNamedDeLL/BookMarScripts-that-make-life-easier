@@ -1,0 +1,1 @@
+javascript:(function()%7Bconst allowCopyAndPaste %3D (e)%3D> %7Be.stopImmediatePropagation()%3Breturn true%3B%7D%3B%5B'copy'%2C'paste'%5D.forEach(a %3D> %7Bdocument.addEventListener(a%2C allowCopyAndPaste%2C true)%3B%7D)%7D)()
